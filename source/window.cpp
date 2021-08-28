@@ -1,3 +1,4 @@
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 //
 //
@@ -162,7 +163,12 @@ int main()
         return -1;
     }
 
+
+    //  Está etapa só pode ser realizada para quem criou o triãngulo...
+    //  No nosso arquivo "triangle.cpp" criamos a nossa função "triangle_start" que inicia as configurações principais do Triangulo
+    //  Então, vamos chamar a nossa função aqui!
     triangle_start();
+
 
     //  Aqui está o nosso GameLoop principal
     //  A função "glfwWindowShouldClose" retorna "true" caso a janela esteja fechada, e "false" caso não esteja fechada
@@ -192,7 +198,12 @@ int main()
         //  O tipo "GL_COLOR_BUFFER_BIT" indica as buffers que estão atualmente ativados para a gravação de cores
         glClear(GL_COLOR_BUFFER_BIT);
 
+
+        //  Está etapa só pode ser realizada para quem criou o triãngulo...
+        //  No nosso arquivo "triangle.cpp" criamos a nossa função "triangle_render" que renderiza o triangulo
+        //  Então, vamos chamar a nossa função aqui!
         triangle_render();
+
 
         //  Agora, vamos trocar os buffers da tela...
         //  A função "glSwapBuffers" troca os buffers "frontal e traseiro" da janela especificada. 
@@ -202,6 +213,12 @@ int main()
         //  Agora, apenas colocamos uma função sem parametros para atualizar todos os eventos que acontecerão
         glfwPollEvents();
     }
+
+    //  Está etapa só pode ser realizada para quem criou o triângulo...
+    //  No nosso arquivo "triangle.cpp" criamos a nossa função "triangle_delete" que deleta as nossas configurações do triangulo
+    //  Vamos chamar a nossa função aqui!
+    triangle_delete();
+
 
     //  Após o término do Game Loop, finalizamos o GLFW
     glfwTerminate();
