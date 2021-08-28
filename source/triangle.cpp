@@ -58,7 +58,7 @@ float vertices[] = {
 //  Agora, vamos entrar na parte de Shaders
 //  Nós iremos criar 2 strings que irão armazenar a codificação para a VertexShader e FragmentShader
 //  O OpenGL moderno tem uma linguagem própria para programarmos as Shaders, que é a GLSL
-//  A GLSL é uma linguagem de shading feita para substituir o uso de uma linguagem como Assembly para criamos Shaders
+//  A GLSL é uma linguagem de shading feita para substituir o uso de uma linguagem como Assembly para criarmos Shaders
 //  E uma observação importante, é que o GLSL é compilando em Runtime!
 
 //  Vamos começar criando o código-fonte da VertexShader
