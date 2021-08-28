@@ -30,7 +30,7 @@
 //  Graphics Pipeline é um conceito que descreve cada etapa que teremos de fazer para renderizar algum objeto em nossa cena.
 //
 //  No Graphics Pipeline, possuimos 7 etapas para nós renderizarmos um objeto
-//  Essas 6 etapas são:
+//  Essas 7 etapas são:
 //  VertexData -> Vertex Shader -> Shape Assembly -> Geometry Shader -> Rasterization -> Fragment Shader e Tests and Blending
 //
 //  A VertexData é o processo inicial, que é quando nós iniciamos nossas vértices e setamos suas posições em um Array
