@@ -21,6 +21,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
+#include "triangle.cpp"
 
 //  Função que será chamada quando redimensionarmos a janela
 //  Todos os nossos conteúdos que aparecerá na janela, sera redimensionado para se encaixar nela
@@ -161,6 +162,7 @@ int main()
         return -1;
     }
 
+    triangle_start();
 
     //  Aqui está o nosso GameLoop principal
     //  A função "glfwWindowShouldClose" retorna "true" caso a janela esteja fechada, e "false" caso não esteja fechada
@@ -175,7 +177,7 @@ int main()
         //  O quarto parametro indica se a cor é Alpha
         //  1.0f é opaco, e menos que isso começa a ficar mais transparente
         //  NOTE: O OpenGL trabalha com coordenadas normalizadas, então as cores só vão de "-1.0f" a "1.0f"
-        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+        glClearColor(0.870f, 0.635f, 0.984f, 1.0f);
 
 
         //  Agora, vamos limpar os buffers da tela
@@ -189,6 +191,8 @@ int main()
         //  Este parametro pode ser varios, porém indicaremos apenas o tipo "GL_COLOR_BUFFER_BIT"
         //  O tipo "GL_COLOR_BUFFER_BIT" indica as buffers que estão atualmente ativados para a gravação de cores
         glClear(GL_COLOR_BUFFER_BIT);
+
+        triangle_render();
 
         //  Agora, vamos trocar os buffers da tela...
         //  A função "glSwapBuffers" troca os buffers "frontal e traseiro" da janela especificada. 
