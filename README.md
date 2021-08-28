@@ -17,7 +17,7 @@ O conteúdo é algo simples, apenas ensinando a criação de uma Janela com GLFW
 Caso você queira saber por onde estou estudando, e onde estão minhas inspirações para o projeto, aqui está: https://learnopengl.com
 
 # O Conteúdo
-🤌 O conteúdo proposto no projeto lhe ensinará a criar uma Janela com GLFW, configurar seu OpenGL e principalmente, a como criar um Triângulo. Será mostrado pontos importantes, como Shaders, Graphics Pipeline, VBO, VAO e etc...
+🗒️ O conteúdo proposto no projeto lhe ensinará a criar uma Janela com GLFW, configurar seu OpenGL e principalmente, a como criar um Triângulo. Será mostrado pontos importantes, como Shaders, Graphics Pipeline, VBO, VAO e etc...
 Siga o conteúdo passo a passo, leia tudo e se não entender, releia novamente. É muito importante saber o que cada coisa faz 👀
 
 ## Resultado
