@@ -63,7 +63,7 @@ const char *fragmentShaderSource =
 "out vec4 fColor;\n"
 "void main()\n"
 "{\n"
-"   fColor = vec4(0.686f, 0.019f, 1.0f, 1.0f);\n"
+"   fColor = vec4(1.0f, 0.121f, 0.239f, 1.0f);\n"
 "}\0";
 
 unsigned int shaderProgram;
