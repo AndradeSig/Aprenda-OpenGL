@@ -12,3 +12,6 @@ Não muita coisa, apenas uma base sobre a linguagem C++ e um pequeno conheciment
 
 ## O que será introduzido no conteúdo?
 O conteúdo é algo simples, apenas ensinando a criação de uma Janela com GLFW e a criação de um triangulo. Porém acho que vale a pena tentar entender passo a passo de como funciona cada função e pra que ela serve, então por isso acho que vale a pena para todos. O conteúdo está 100% comentado e bem explicativo, espero que você entenda tudo! Como eu tinha dito, o conteúdo é simples, feito apenas para você entender o básico de OpenGL. Caso você quiser ajudar o projeto adicionando mais conteúdos, você é 100% livre para ajudar. O projeto tem licensa MIT e caso você quiser, pode alterar, criar e enviar novos conteúdos 😁
+
+## LearnOpenGL
+Caso você queira saber por onde estou estudando, e onde estão minhas inspirações para o projeto, aqui está: https://learnopengl.com
