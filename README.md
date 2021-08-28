@@ -23,6 +23,6 @@ Siga o conteúdo passo a passo, leia tudo e se não entender, releia novamente. 
 ## Resultado
 Aqui está o resultado do conteúdo:
 <br/>
-<img src="https://cdn.discordapp.com/attachments/837039667265142838/881254062169927700/unknown.png" width="60%">
+<img src="https://cdn.discordapp.com/attachments/837039667265142838/881254062169927700/unknown.png" width="50%">
 <br/>
 Bom, o resultado é simples porém muito bacana de se entender 😃
