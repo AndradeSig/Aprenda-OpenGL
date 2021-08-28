@@ -177,7 +177,7 @@ int main()
         //  O quarto parametro indica se a cor é Alpha
         //  1.0f é opaco, e menos que isso começa a ficar mais transparente
         //  NOTE: O OpenGL trabalha com coordenadas normalizadas, então as cores só vão de "-1.0f" a "1.0f"
-        glClearColor(0.615f, 0.121f, 1.0f, 1.0f);
+        glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
 
 
         //  Agora, vamos limpar os buffers da tela
